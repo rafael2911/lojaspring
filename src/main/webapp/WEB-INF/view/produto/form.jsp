@@ -20,20 +20,22 @@
 				<div class="form-group">
 					<label>Título</label>
 					<form:input path="titulo" cssClass="form-control" />
+					<form:errors path="titulo" cssClass="label label-danger" />
 				</div>
 				<div class="form-group">
 					<label>Descrição</label>
-					<form:textarea path="descricao" cols="20" rows="5"
-						cssClass="form-control" />
+					<form:textarea path="descricao" cssClass="form-control" />
+					<form:errors path="descricao" cssClass="label label-danger" />
 				</div>
 				<div class="form-group">
 					<label>N. Páginas</label>
 					<form:input path="paginas" cssClass="form-control" />
+					<form:errors path="paginas" cssClass="label label-danger" />
 				</div>
 				<div class="form-group">
 					<label>Data de Publicação</label>
-					<form:input path="dataPublicacao" type="date"
-						cssClass="form-control" />
+					<form:input path="dataPublicacao" type="date" cssClass="form-control" />
+					<form:errors path="dataPublicacao" cssClass="label label-danger" />
 				</div>
 				<div class="form-group">
 					<label>Status</label>
